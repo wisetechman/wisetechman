@@ -1,0 +1,107 @@
+.registerformWrapper {
+		color: #0099FF;
+	font-weight: bold;
+	}
+
+.registration_form {
+	margin:0 auto;
+	width:100%;
+	padding:4px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.registration_form p {
+	border-bottom:1px solid #B7DDF2;
+	color:#EC1515;
+	font-size:16px;
+}
+
+.registration_form  a{
+    color:#0099FF;
+font-weight:bold;
+}
+	
+.registration_form label {
+	font-size:20px;
+	width: 10em;
+	float: left;
+	margin-right: 0.5em;
+	display: block
+}
+
+
+.registration_form  fieldset {
+	background: #A2EB90; none repeat scroll 0 0;
+	border:2px solid #F1175D;
+	height: 300px;
+	width : 500px;
+}
+
+.registration_form legend {
+	font-size:14px;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;	
+	color: #fff;
+	background: #80D3E2;
+	border: 1px solid #781351;
+	padding: 2px 6px;
+	}
+
+.registersubmit input{
+	font-size:18px;
+	float:left;
+	margin : 50px;
+	color : rgb(240, 21, 21);
+}
+
+.registerelements {
+	padding: 10px;
+}
+
+.registerelements input {
+	font-size:20px;
+	width: 12em;
+	float: right;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	display: block
+	color : rgb(240, 21, 21);
+}
+
+
+/* Box Style */
+.success,.warning,.errormsgbox,.validation {
+	border: 1px solid;
+	margin: 0 auto;
+	padding: 10px 5px 10px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-weight: bold;
+	width: 450px;
+}
+
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image: url('images/success.png');
+}
+
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('images/warning.png');
+}
+
+.errormsgbox {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('images/error.png');
+}
+
+.validation {
+	color: #D63301;
+	background-color: #FFCCBA;
+	background-image: url('images/error.png');
+}

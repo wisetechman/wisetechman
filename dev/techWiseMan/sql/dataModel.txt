@@ -1,0 +1,33 @@
+module  				sql functiom / sql code
+activateRegistration	mysqli_update() UPDATE members  SET Activation=NULL WHERE(Email ='$email' AND Activation='$key')LIMIT 1";
+authenticateLogin.php	select 			 select authorizationLevel from  userlogin where accountStatus='active' and username= '" . $username . "' and password ='" . $password . "';";
+memberRegistration.php	select    select email from members where email = $email
+						update/insert  members set username email password activatiojn
+processLogin			query "select authorizationLevel from  members where accountStatus='active' and email= '" . $email . "' and password ='" . $password . "';";
+	
+	
+	
+membersStatus		default
+ID		
+Status 		active
+Activation	null				created by memberRegistration.php updated by activateRegistration
+
+membersLogin		default					created by memberRegistration.php query by activateRegistration and processLogin
+ID	
+username			null
+password			null
+email				null
+authorizationLevel 	normal
+
+membersContact
+email (PK)
+companyName
+telephoneNumber
+addr1
+addr2
+town
+city/county
+interaction
+
+
+
